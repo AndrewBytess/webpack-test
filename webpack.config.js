@@ -35,10 +35,10 @@ module:{
 
     },
     {
-        test:/\.css|.styl$/i,
+        test:/\.css$/i,
         use:[miniCssExtractPlugin.loader,
             'css-loader',
-            'stylus-loader'
+          
         ],
     },
     {
